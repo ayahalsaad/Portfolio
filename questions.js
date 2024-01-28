@@ -5,7 +5,6 @@ function findMissingNumber(nums) {
     return totalSum - arraySum;
 }
 
-// Test the function with the provided examples
 console.log(findMissingNumber([3, 0, 1])); // Should return 2
 console.log(findMissingNumber([9, 6, 4, 2, 3, 5, 7, 0, 1])); // Should return 8
 console.log(findMissingNumber([0, 1])); // Should return 2
